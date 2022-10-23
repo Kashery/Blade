@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="490.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="490.0">
+         <children>
+            <HBox prefWidth="490.0">
+               <children>
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Label text="Blade Encryption Tool">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Pane HBox.hgrow="ALWAYS" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta pellentesque lectus vitae venenatis. Quisque a justo aliquam, tristique eros in, tempor mauris. Integer volutpat nunc id augue sagittis bibendum. In hac habitasse platea dictumst. Vivamus fermentum vel libero vitae consectetur. Curabitur commodo volutpat libero nec vehicula. Sed vehicula, sapien sit amet egestas efficitur, eros turpis sagittis arcu, sed pellentesque massa quam sit amet erat. Vivamus non est tristique, ultricies nisi sed, vulputate enim. Aliquam euismod non dui id sollicitudin." textAlignment="CENTER" wrappingWidth="300.0" />
+                  <Pane HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</Pane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <left>
+      <VBox prefHeight="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="15.0" layoutY="60.0" mnemonicParsing="false" onMouseClicked="#goToHome" prefHeight="35.0" prefWidth="100.0" text="Home">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#goToEncryption" prefHeight="35.0" prefWidth="100.0" text="Encryption">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#goToDecryption" prefHeight="35.0" prefWidth="100.0" text="Decryption">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Pane VBox.vgrow="ALWAYS" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Karol Szychulski Mateusz Kolano" wrappingWidth="100.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane style="-fx-background-color: #eeeeee;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="490.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Label text="Blade Encryption Tool">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                        <Pane HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta pellentesque lectus vitae venenatis. Quisque a justo aliquam, tristique eros in, tempor mauris. Integer volutpat nunc id augue sagittis bibendum. In hac habitasse platea dictumst. Vivamus fermentum vel libero vitae consectetur. Curabitur commodo volutpat libero nec vehicula. Sed vehicula, sapien sit amet egestas efficitur, eros turpis sagittis arcu, sed pellentesque massa quam sit amet erat. Vivamus non est tristique, ultricies nisi sed, vulputate enim. Aliquam euismod non dui id sollicitudin." textAlignment="CENTER" wrappingWidth="300.0" />
+                        <Pane HBox.hgrow="ALWAYS" />
+                     </children>
+                     <padding>
+                        <Insets top="15.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
